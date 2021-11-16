@@ -24,7 +24,7 @@
           </div>
         </div>
       </nav>
-      
+
 <!-- Router -->
       <main>
           <router-view></router-view>
@@ -58,6 +58,7 @@ export default {
   methods: {
     clearCompleted () {
       this.$store.commit('setCheckList', this.$store.getters.checkListActive)
+      this.$store.commit('setLocalStorage', this.$store.getters.checkListActive)
     }
   }
 }
