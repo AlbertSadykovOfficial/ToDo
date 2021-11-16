@@ -1,6 +1,6 @@
 # todo
 
-> Novosibirsk
+> Simple ToDo List for Local Usage without Server-side.
 
 ## Build Setup
 
